@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+@theme {
+  --color-paper: #F1EDE4;
+  --color-ink: #161412;
+  --color-accent: #FF4A00;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
   ::selection { background: #FF4A00; color: #161412; }
   ::-webkit-scrollbar { width: 10px; }
